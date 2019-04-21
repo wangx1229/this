@@ -30,7 +30,7 @@ fn() // I come from window
 此时如果我们调用fn(),会发现控制台打印出'I come from window',说明this指向全局对象。
 而如果调用obj.fn(),会发现控制台打印出'I come from obj',说明this指向obj对象。
 
-**结论：通过对象内部的属性访问一个方法时，方法内部的this会指向该对象。 **
+**结论：通过对象内部的属性访问一个方法时，方法内部的this会指向该对象。**
 
 ## 3. 通过call，apply调用函数
 ```javascript
